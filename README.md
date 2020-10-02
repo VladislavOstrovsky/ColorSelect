@@ -1,2 +1,2 @@
-# ColorSelect
-ColorSelect
+## ColorSelect
+### `yarn start`

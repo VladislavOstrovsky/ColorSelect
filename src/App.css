@@ -1,0 +1,44 @@
+.App {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.ColorSelect__Wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%,-50%);
+  transform-origin: left top;
+  max-width: 100%;
+  height: auto;
+  display: grid;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+  border: 1px solid rgba(0,0,0,0.3);
+  padding: 20px;
+}
+
+.ColorSelect {
+  display: grid;
+  grid-template-columns: 520px 40px;
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ColorSelect__Map {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.ColorSelect__Slider {
+  position: relative;
+  width: 40px;
+  height: 500px;
+  cursor: ew-resize;
+}
