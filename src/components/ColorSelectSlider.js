@@ -49,7 +49,7 @@ const ColorSelectSlider = ({ hueY, offsetTop, setHueY, setHue }) => {
     }
 
     function computeHue(y) {
-      return Math.round((y - sliderSize / 2) * (360 / mapSize))
+      return Math.round((y + sliderSize / 2) * (360 / mapSize))
     }
 
     const onMouseMove = throttle(e => {

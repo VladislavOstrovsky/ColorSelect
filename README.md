@@ -1,2 +1,3 @@
 ## ColorSelect
+### `yarn`
 ### `yarn start`

@@ -37,8 +37,8 @@ const ColorSelect = ({ value, onChange }) => {
   }, [])
 
   useEffect(() => {
-    setColor(`hsla(${hue + 7}, ${map[0]}%, ${map[1]}%, 1)`)
-    onChange(HSLToHex(hue + 7, map[0], map[1]))
+    setColor(`hsla(${hue}, ${map[0]}%, ${map[1]}%, 1)`)
+    onChange(HSLToHex(hue, map[0], map[1]))
   }, [hue, map, onChange])
 
   return (
